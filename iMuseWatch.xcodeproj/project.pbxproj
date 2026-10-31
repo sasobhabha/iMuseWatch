@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A8BE546B56E91E0C0E94CC9 /* WorkspaceRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5B44440C1FD79DEA9DBF66 /* WorkspaceRequest.swift */; };
+		3C2CB65A8CAD31B6484AD28D /* CaptionsOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633C0D9D58D92F07CE83CB4A /* CaptionsOverlayView.swift */; };
+		4CF6360A4B38ED989815F8BE /* AudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD02DEA2B005BE9CA7B9A96 /* AudioRecorder.swift */; };
+		52410D50F08847CFB418371E /* TranscriptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864E5E83D520586B702C0E6E /* TranscriptView.swift */; };
+		60A93624169A82FCCE556938 /* ApplianceState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73A45126A535F223AD160E5 /* ApplianceState.swift */; };
+		753DAB542FC1BB98D8EE5F29 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EE3380BE14E1E367BEAAE9 /* HapticManager.swift */; };
+		7E5204DAAB2CF0799E16644A /* CompanionMood.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAFFDDF9EC954DEB5846B91 /* CompanionMood.swift */; };
+		898F71B960704B2B4403EAEF /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CFE812934E2B0A1CA73D2D /* AvatarView.swift */; };
+		9EB5D0549E7AA645508E7D8A /* iMuseWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC47A5ED6599E7798C0080A /* iMuseWatchApp.swift */; };
+		AF55BBD3D07A0D8F71BE0289 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66C4763DAF1243ECBEE66B2A /* Assets.xcassets */; };
+		B774D257349BCD22676C0BCD /* iMuseWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B2E6D3D34646F33BE572B6 /* iMuseWatchTests.swift */; };
+		C31C916887E00C071015A844 /* MuseRuntime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CA0DF2692A0D2FB34CE711 /* MuseRuntime.swift */; };
+		C4F484C00E359F7DF7C53C74 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B2EDEB7671DA890EAA3E38 /* SettingsView.swift */; };
+		C60459A62E39537CD5C85223 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED99F09EEFFC6FFBBF59768 /* ContentView.swift */; };
+		CAC37F9E94C986C2A7FCAE84 /* SpeechManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C440E5D6B67038A3BEF718DF /* SpeechManager.swift */; };
+		DC5D85386A9A8CFBB6BBCF27 /* KeychainVault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F365BB0074F2345294B4841 /* KeychainVault.swift */; };
+		E89643BD1D62EB97351BAA5B /* MuseClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFE1C51DE7BE2784DADAC99 /* MuseClient.swift */; };
+		EA92442B5D5E0139A2C3317B /* SetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E778AA9EBC1AE73D470CD3CF /* SetupView.swift */; };
+		EB2E336BD81932E70081F5DF /* MuseMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51FC1A3C3F70940045F0796 /* MuseMessage.swift */; };
+		ECA9D2E17C4DCA4389BE8E0D /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D9EE76B03DDD1EF46F528E /* NotificationsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		239E2B92D90718EAD023B241 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83AB1A74D9E782B2159D1A47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF0DB0CFB496FAF362D1BD47;
+			remoteInfo = iMuseWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FC47A5ED6599E7798C0080A /* iMuseWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMuseWatchApp.swift; sourceTree = "<group>"; };
+		13D9EE76B03DDD1EF46F528E /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		3F365BB0074F2345294B4841 /* KeychainVault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainVault.swift; sourceTree = "<group>"; };
+		48CFE812934E2B0A1CA73D2D /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
+		4ED99F09EEFFC6FFBBF59768 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		633C0D9D58D92F07CE83CB4A /* CaptionsOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptionsOverlayView.swift; sourceTree = "<group>"; };
+		66C4763DAF1243ECBEE66B2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F430E092630EE044D8A21F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		81EE3380BE14E1E367BEAAE9 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		864E5E83D520586B702C0E6E /* TranscriptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptView.swift; sourceTree = "<group>"; };
+		89D9F136AE14D8AA04E2EB03 /* iMuseWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMuseWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FFE1C51DE7BE2784DADAC99 /* MuseClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseClient.swift; sourceTree = "<group>"; };
+		91B2EDEB7671DA890EAA3E38 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		93CA0DF2692A0D2FB34CE711 /* MuseRuntime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseRuntime.swift; sourceTree = "<group>"; };
+		A51FC1A3C3F70940045F0796 /* MuseMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseMessage.swift; sourceTree = "<group>"; };
+		BBD02DEA2B005BE9CA7B9A96 /* AudioRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorder.swift; sourceTree = "<group>"; };
+		C440E5D6B67038A3BEF718DF /* SpeechManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechManager.swift; sourceTree = "<group>"; };
+		C73A45126A535F223AD160E5 /* ApplianceState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplianceState.swift; sourceTree = "<group>"; };
+		DAAFFDDF9EC954DEB5846B91 /* CompanionMood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanionMood.swift; sourceTree = "<group>"; };
+		DFE2C134DCBEF51A72608DAE /* iMuseWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMuseWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E778AA9EBC1AE73D470CD3CF /* SetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupView.swift; sourceTree = "<group>"; };
+		F8B2E6D3D34646F33BE572B6 /* iMuseWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMuseWatchTests.swift; sourceTree = "<group>"; };
+		FC5B44440C1FD79DEA9DBF66 /* WorkspaceRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkspaceRequest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0A0411E3100B4EE0DEAFA9D7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C73A45126A535F223AD160E5 /* ApplianceState.swift */,
+				DAAFFDDF9EC954DEB5846B91 /* CompanionMood.swift */,
+				A51FC1A3C3F70940045F0796 /* MuseMessage.swift */,
+				FC5B44440C1FD79DEA9DBF66 /* WorkspaceRequest.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3CB2ED016C4B9F9E63A67F0B /* iMuseWatch */ = {
+			isa = PBXGroup;
+			children = (
+				66C4763DAF1243ECBEE66B2A /* Assets.xcassets */,
+				0FC47A5ED6599E7798C0080A /* iMuseWatchApp.swift */,
+				6F430E092630EE044D8A21F4 /* Info.plist */,
+				0A0411E3100B4EE0DEAFA9D7 /* Models */,
+				AEBA210F3C7FEAFC3097A677 /* Services */,
+				C797892DC2F654180AE1229D /* Views */,
+			);
+			path = iMuseWatch;
+			sourceTree = "<group>";
+		};
+		8263BBA8F3F5CD43E03C3035 = {
+			isa = PBXGroup;
+			children = (
+				3CB2ED016C4B9F9E63A67F0B /* iMuseWatch */,
+				E6BE5113D1FF0022C928D776 /* iMuseWatchTests */,
+				A395ACAC6B92871A364176A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A395ACAC6B92871A364176A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFE2C134DCBEF51A72608DAE /* iMuseWatch.app */,
+				89D9F136AE14D8AA04E2EB03 /* iMuseWatchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEBA210F3C7FEAFC3097A677 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BBD02DEA2B005BE9CA7B9A96 /* AudioRecorder.swift */,
+				81EE3380BE14E1E367BEAAE9 /* HapticManager.swift */,
+				3F365BB0074F2345294B4841 /* KeychainVault.swift */,
+				8FFE1C51DE7BE2784DADAC99 /* MuseClient.swift */,
+				93CA0DF2692A0D2FB34CE711 /* MuseRuntime.swift */,
+				C440E5D6B67038A3BEF718DF /* SpeechManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C797892DC2F654180AE1229D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				48CFE812934E2B0A1CA73D2D /* AvatarView.swift */,
+				633C0D9D58D92F07CE83CB4A /* CaptionsOverlayView.swift */,
+				4ED99F09EEFFC6FFBBF59768 /* ContentView.swift */,
+				13D9EE76B03DDD1EF46F528E /* NotificationsView.swift */,
+				91B2EDEB7671DA890EAA3E38 /* SettingsView.swift */,
+				E778AA9EBC1AE73D470CD3CF /* SetupView.swift */,
+				864E5E83D520586B702C0E6E /* TranscriptView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E6BE5113D1FF0022C928D776 /* iMuseWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8B2E6D3D34646F33BE572B6 /* iMuseWatchTests.swift */,
+			);
+			path = iMuseWatchTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF0DB0CFB496FAF362D1BD47 /* iMuseWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37F2691C6D65E0E2E88DEF7B /* Build configuration list for PBXNativeTarget "iMuseWatch" */;
+			buildPhases = (
+				9F1C13767C4F2EDD37C4D3C8 /* Sources */,
+				A16762594EF3CFDC3C08C6FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iMuseWatch;
+			packageProductDependencies = (
+			);
+			productName = iMuseWatch;
+			productReference = DFE2C134DCBEF51A72608DAE /* iMuseWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7F1158EF9D82C64B946CA70 /* iMuseWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FFDE794FF523E95AE09E3C0 /* Build configuration list for PBXNativeTarget "iMuseWatchTests" */;
+			buildPhases = (
+				C43E8C77930231AC25E78331 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7D2D151480C926712E08434 /* PBXTargetDependency */,
+			);
+			name = iMuseWatchTests;
+			packageProductDependencies = (
+			);
+			productName = iMuseWatchTests;
+			productReference = 89D9F136AE14D8AA04E2EB03 /* iMuseWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83AB1A74D9E782B2159D1A47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AF0DB0CFB496FAF362D1BD47 = {
+						ProvisioningStyle = Automatic;
+					};
+					C7F1158EF9D82C64B946CA70 = {
+						DevelopmentTeam = ZX32KR6KKW;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9AD3F1182AF1ACE8F6C47282 /* Build configuration list for PBXProject "iMuseWatch" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 8263BBA8F3F5CD43E03C3035;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A395ACAC6B92871A364176A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF0DB0CFB496FAF362D1BD47 /* iMuseWatch */,
+				C7F1158EF9D82C64B946CA70 /* iMuseWatchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A16762594EF3CFDC3C08C6FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF55BBD3D07A0D8F71BE0289 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F1C13767C4F2EDD37C4D3C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60A93624169A82FCCE556938 /* ApplianceState.swift in Sources */,
+				4CF6360A4B38ED989815F8BE /* AudioRecorder.swift in Sources */,
+				898F71B960704B2B4403EAEF /* AvatarView.swift in Sources */,
+				3C2CB65A8CAD31B6484AD28D /* CaptionsOverlayView.swift in Sources */,
+				7E5204DAAB2CF0799E16644A /* CompanionMood.swift in Sources */,
+				C60459A62E39537CD5C85223 /* ContentView.swift in Sources */,
+				753DAB542FC1BB98D8EE5F29 /* HapticManager.swift in Sources */,
+				DC5D85386A9A8CFBB6BBCF27 /* KeychainVault.swift in Sources */,
+				E89643BD1D62EB97351BAA5B /* MuseClient.swift in Sources */,
+				EB2E336BD81932E70081F5DF /* MuseMessage.swift in Sources */,
+				C31C916887E00C071015A844 /* MuseRuntime.swift in Sources */,
+				ECA9D2E17C4DCA4389BE8E0D /* NotificationsView.swift in Sources */,
+				C4F484C00E359F7DF7C53C74 /* SettingsView.swift in Sources */,
+				EA92442B5D5E0139A2C3317B /* SetupView.swift in Sources */,
+				CAC37F9E94C986C2A7FCAE84 /* SpeechManager.swift in Sources */,
+				52410D50F08847CFB418371E /* TranscriptView.swift in Sources */,
+				3A8BE546B56E91E0C0E94CC9 /* WorkspaceRequest.swift in Sources */,
+				9EB5D0549E7AA645508E7D8A /* iMuseWatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C43E8C77930231AC25E78331 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B774D257349BCD22676C0BCD /* iMuseWatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7D2D151480C926712E08434 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF0DB0CFB496FAF362D1BD47 /* iMuseWatch */;
+			targetProxy = 239E2B92D90718EAD023B241 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		141D6542338B5B4C735F6AAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8PQR26VG3C;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = iMuseWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shashwath.iMuseWatch;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		6D25C99A7B90619E4031A1A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = ZX32KR6KKW;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		A294021ADA7F9642105F876F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZX32KR6KKW;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shashwath.iMuseWatchTests;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iMuseWatch.app/iMuseWatch";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		A634E3EDEA42F60A17E2E89A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = ZX32KR6KKW;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		D87037262E41A72CE3266246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8PQR26VG3C;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = iMuseWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shashwath.iMuseWatch;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		F9EE696A07AA43C4975C3D9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZX32KR6KKW;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shashwath.iMuseWatchTests;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iMuseWatch.app/iMuseWatch";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FFDE794FF523E95AE09E3C0 /* Build configuration list for PBXNativeTarget "iMuseWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9EE696A07AA43C4975C3D9A /* Debug */,
+				A294021ADA7F9642105F876F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		37F2691C6D65E0E2E88DEF7B /* Build configuration list for PBXNativeTarget "iMuseWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				141D6542338B5B4C735F6AAD /* Debug */,
+				D87037262E41A72CE3266246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9AD3F1182AF1ACE8F6C47282 /* Build configuration list for PBXProject "iMuseWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D25C99A7B90619E4031A1A1 /* Debug */,
+				A634E3EDEA42F60A17E2E89A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83AB1A74D9E782B2159D1A47 /* Project object */;
+}
